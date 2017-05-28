@@ -3,7 +3,12 @@ pipeline {
   stages {
     stage('commit') {
       steps {
-        echo 'Hello World'
+        echo 'Huhu - commit'
+      }
+    }
+    stage('it') {
+      steps {
+        echo 'haha - it'
       }
     }
   }
