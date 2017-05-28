@@ -24,6 +24,6 @@ public class NormalTrain implements Train {
 
     @Override
     public boolean isOkay() {
-        return false;
+        return true;
     }
 }
